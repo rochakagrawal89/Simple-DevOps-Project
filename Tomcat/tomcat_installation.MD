@@ -9,7 +9,7 @@
    ```sh 
    # Create tomcat directory
    cd /opt
-   wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
+   wget https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.15/bin/apache-tomcat-11.0.15.tar.gz
    tar -xvzf /opt/apache-tomcat-<version>.tar.gz
    ```
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
@@ -69,4 +69,5 @@ goto tomcat home directory and Add below users to conf/tomcat-users.xml file
 	<user username="tomcat" password="s3cret" roles="manager-gui"/>
    ```
 1. Restart serivce and try to login to tomcat application from the browser. This time it should be Successful
+
 
